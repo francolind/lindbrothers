@@ -1,0 +1,228 @@
+html body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+ul{
+    list-style: none;
+}
+
+:root{
+    --font-family:'Poppins', sans-serif;
+    --color-principal:#96dc62;
+}
+
+
+/*----------------------HEADER---------------------------------*/
+
+.header{
+    max-width: 1200px;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header-logo{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-search{
+    display: flex;
+    position: relative;
+}
+.header-search input{
+    width: 400px;
+    padding: 0;
+    height:30px ;
+}
+.header-icono{
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    right: 0;
+    top: 10px;
+}
+.header-menu{
+    width: 40%;
+    display: flex;
+}
+.header-menu ul{
+    display: flex;
+    align-items: center;
+}
+.header-menu li{
+    margin-right:15px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.header-logo img{
+    width: 200px;
+    
+}
+.header-icons{  
+    display: flex;
+}
+.icons{
+    margin: 0;
+}
+
+
+/*----------------------REMERAS1---------------------------------*/
+
+.remeras1{
+    width: 100%;
+    display: flex;
+}
+.remeras1-img{
+    width: 50%;
+}
+
+.remeras1-img img{
+    width: 100%;
+    margin-top: 50px;
+    border-radius:20px ;
+}
+.remeras1-button{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*----------------------LogoProduct---------------------------------*/
+
+.LogoProduct-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.LogoProduct-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+.LogoProduct-card-icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #96dc62;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.LogoProduct-card img{
+    width: 80px;
+}
+.LogoProduct-card-p{
+    width: 100px;
+    height: 100p
+}
+.LogoProduct-card-p p{
+    text-align: center;
+}
+
+/*----------------------Main---------------------------------*/
+.main{
+    width: 100vw;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    width: 100%;
+    display:grid;
+    grid-auto-flow:dense;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.main-card{
+    border-radius: 10px;
+    width: 280px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    
+}
+.main-card img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.main-card p{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+/*----------------------maxcart---------------------------------*/
+
+.maxcard{
+    display: flex;
+    width: 100vw;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.maxcard-card{
+    width: 30%;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.maxcard-card img{
+    width: 100%;
+    border-radius: 20px;
+}
+/*----------------------footer---------------------------------*/
+.footer{
+    width: 100vw;
+    max-width: 1200px;
+    margin-top: 40px ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.footer-logo img{
+    width: 200px;
+}
+.footer-link li {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.footer-social h2{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}

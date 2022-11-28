@@ -1,0 +1,25 @@
+.calzados-card{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calzados-card-container{
+    width: 100%;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns:
+        minmax(100px, max-content)
+        repeat(auto-fill, 200px) 20%;
+    grid-template-rows: 300px 300px 300px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.calzados-card-principal{
+    width: 200px;
+    height: 200px;
+}
+.calzados-card-principal img{
+    width: 200px;
+}

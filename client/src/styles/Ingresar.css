@@ -1,0 +1,121 @@
+
+.ingresarcuenta{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cuenta-ingresacuenta{
+    width: 30%;
+    height: 100%;
+    
+}
+.cuenta-cabezera{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    
+}
+.cuenta-cabezera p{
+    font-size: 20px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.cuenta-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.cuenta-form-form{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column
+}
+.cuenta-form-form label{
+    font-size: 15px;
+    font-family: var(--font-family);
+    font-weight: 600;
+}
+.cuenta-form-form input{
+    width: 70%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color:#dddddd;
+}
+.ingresarcuenta img {
+    width: 200px;
+}
+.cuenta-back{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/22.png') ;
+    background-color: #dddddd .2;
+}
+.cuenta-back img{
+    width: 90%;
+    height: 70%;
+    border-radius: 10px;
+}
+.cuenta-form-button{
+    width: 200px !important;
+    margin-top: 25px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    background-color: white !important;
+    border: 2px solid var(--color-principal) !important;
+    cursor: pointer;
+}
+.cuenta-button-gf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cuenta-button-gf button{
+    padding: 10px 60px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+.cuenta-button-gf img{
+    width: 20px;
+}
+.button-fa{
+    border: 2px solid #1E88E5;
+    margin-right: 20px;
+}
+.button-go{
+    border: 2px solid #E53935;
+}
+
+.cuenta-button-gf :hover{
+   cursor: pointer;
+}
+
+
+.cuenta-button-gf button :active{
+    border: 2px solid black;
+    background-color: #FAFAFA;
+}
+
+input:active{
+    background-color: white;
+}
+input:focus{
+    background-color: white;
+}

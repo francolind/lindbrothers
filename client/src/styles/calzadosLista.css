@@ -1,0 +1,20 @@
+.calzado-lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.calzado-lista-card{
+    width: 150px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: var(--font-family);
+    padding: 10px 0;
+}
+.calzado-lista-card:hover{
+    cursor: pointer;
+}
+.calzado-lista-card:active{
+    color: var(--color-principal);
+    user-select:none;
+}

@@ -1,0 +1,13 @@
+.calzados{
+    width: 100vw;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+.calzados-main{
+    display: flex;
+}
+.seccion-lista{
+    width: 30%;
+    justify-content: flex-start;
+}

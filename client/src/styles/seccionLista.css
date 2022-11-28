@@ -1,0 +1,23 @@
+.seccion-lista{
+    display: flex;
+    max-width: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.seccion-lista-card{
+    width: 150px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: var(--font-family);
+    padding: 10px 0;
+}
+.seccion-lista-card:hover{
+    cursor: pointer;
+}
+.seccion-lista-card:active{
+    color: var(--color-principal);
+    user-select:none;
+}
